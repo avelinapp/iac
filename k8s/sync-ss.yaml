@@ -1,0 +1,14 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: sync-secret
+  namespace: avelin
+spec:
+  encryptedData:
+    HOCUSPOCUS_WEBHOOK_SECRET: AgB3/YTpL8nmuH95fHsOTbM1SGP72f0YVee25N5lyN1XHfVZ7/pVXitqptabpU6ot5nUmy4qjA5cxlOWbg3u3srqFVsGBzx1m9vj7AAWOP0otPDsRUysx0/vEojyPjPkrc6bQd2moGr/33eorbY4tzjlI5YZdsdfOHFFcu5YcRjkmtlgE3KqqqWuF3rFpA9N8UvvU6q6cGNkEIK0RfIyumf//KyT+BhaOFrVBrX1Qx+i0G3sbacR3olqQ4lUSuoGT1xM/HmoHGMCAA+XYxwDTUfe2u+dvdPYivVm81CfN6BZSbxIgJXjR7fVaipwV1trYQe9Obqrz1/17xknxbNUvPuCFFF8Rwid1qheMF5qGpkqWDt/+Eb3wUj098f1xv0i7LWbjvnqiiCdxTWi7TCb19XAIfiqpZYX3ev2DyVLvdgp+vu2yOlLwbYShjbVwFKzQ4zkUcuhyzf6crp6DHNG7ltbf/U4oOD+RZgtybCzM8DV0wXQf2VIIdqP3GCj2iCqFU1p2lGuQg0dNSnaQkZazksbPSAdCwa01Phnt9sacAx3ak2awOgPjq/I5hEd72e3fOFxLoVzBknP8YKQwkp5mlfQ/WnGguU34UNacWmPqnRrtML7/MkGb/DjMF81y7P1Gs0c4FWn9NbJeW2iqlohSfVkWcLgoL4nkNbD2r6AQyun3llT1v+hO2GaCNpJQjWZKP0Lrls2E12jIxuzu3kG2WvMqUKqT2F1kKgxvtHS5aI4azEop3it09oMrH5ALw==
+  template:
+    metadata:
+      creationTimestamp: null
+      name: sync-secret
+      namespace: avelin
