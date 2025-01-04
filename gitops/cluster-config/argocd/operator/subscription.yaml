@@ -4,6 +4,10 @@ metadata:
   name: argocd-operator
   namespace: argocd
 spec:
+  config:
+    env:
+      - name: ARGOCD_CLUSTER_CONFIG_NAMESPACES
+        value: argocd
   channel: alpha
   name: argocd-operator
   source: argocd-catalog
