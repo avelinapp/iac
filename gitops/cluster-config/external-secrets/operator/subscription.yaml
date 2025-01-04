@@ -7,3 +7,4 @@ spec:
   channel: alpha
   name: external-secrets-operator
   source: operatorhubio-catalog
+  sourceNamespace: olm
