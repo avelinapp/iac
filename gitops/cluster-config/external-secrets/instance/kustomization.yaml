@@ -3,3 +3,4 @@ namespace: external-secrets
 resources:
   - namespace.yaml
   - operatorconfig.yaml
+  - clustersecretstore.yaml
