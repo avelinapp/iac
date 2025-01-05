@@ -1,0 +1,5 @@
+namespace: argocd
+
+resources:
+  - cluster-apps-project.yaml
+  - avelin

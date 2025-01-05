@@ -1,0 +1,5 @@
+namespace: avelin
+
+resources:
+  - namespace.yaml
+  - doppler-avelin-token-secret.yaml
