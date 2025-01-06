@@ -1,3 +1,4 @@
 namespace: argocd
 resources:
   - cluster-argocd.yaml
+  - tunnelbinding.yaml
