@@ -6,6 +6,7 @@ subjects:
   - kind: Service
     name: argocd-server
     spec:
+      fqdn: argocd.hetzner.lab.bazza.dev
       protocol: http
       target: http://argocd-server.argocd.svc.cluster.local
 tunnelRef:
