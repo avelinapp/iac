@@ -13,3 +13,4 @@ data:
   API_URL: https://api.avelin.app
   SYNC_URL: wss://sync.avelin.app
   ASSETS_URL: https://assets.avelin.app
+  BASE_DOMAIN: avelin.app
