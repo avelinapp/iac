@@ -3,4 +3,3 @@ resources:
   - common.yaml
   - operator.yaml
   - cluster.yaml
-  - tunnelbinding.yaml
