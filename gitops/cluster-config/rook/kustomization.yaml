@@ -3,3 +3,5 @@ resources:
   - common.yaml
   - operator.yaml
   - cluster.yaml
+  - cephblockpool.yaml
+  - storageclass.yaml
