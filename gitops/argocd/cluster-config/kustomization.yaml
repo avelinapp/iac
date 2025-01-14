@@ -5,3 +5,4 @@ resources:
   - argocd
   - external-secrets
   - cloudflare
+  - rook
