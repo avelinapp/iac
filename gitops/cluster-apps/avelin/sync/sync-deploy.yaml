@@ -32,9 +32,7 @@ spec:
                 name: oauth-secret
             - secretRef:
                 name: sync-secret
-          env:
-            - name: DATABASE_URL
-              valueFrom:
-                secretKeyRef:
-                  name: db-secret
-                  key: DATABASE_URL
+            - secretRef:
+                name: cf-r2-secret
+            - secretRef:
+                name: db-secret
