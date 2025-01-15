@@ -1,7 +1,0 @@
-resources:
-  - crds.yaml
-  - common.yaml
-  - operator.yaml
-  - cluster.yaml
-  - cephblockpool.yaml
-  - storageclass.yaml
