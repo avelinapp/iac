@@ -1,2 +1,2 @@
-resources:
-  - rook-application.yaml
+# resources:
+#   - rook-application.yaml
