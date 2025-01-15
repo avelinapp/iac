@@ -17,6 +17,10 @@ spec:
         values: |
           preUpgradeChecker:
             jobEnabled: false
+    - path: gitops/cluster-config/longhorn
+      repoURL: https://github.com/avelinapp/iac.git
+      targetRevision: main
+
   syncPolicy:
     automated:
       prune: false
