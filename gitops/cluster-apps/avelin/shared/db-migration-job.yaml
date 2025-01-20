@@ -13,7 +13,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: avelin-migrate
-          image: ghcr.io/avelinapp/migrate:v0.19.5
+          image: ghcr.io/avelinapp/migrate:v0.19.6
           env:
             - name: DATABASE_URL
               valueFrom:
