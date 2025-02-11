@@ -2,7 +2,7 @@ kind: AppProject
 apiVersion: argoproj.io/v1alpha1
 metadata:
   annotations:
-    argocd.argoproj.io/sync-wave: "3"
+    argocd.argoproj.io/sync-wave: "5"
   name: cluster-apps
 spec:
   clusterResourceWhitelist:

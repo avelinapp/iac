@@ -1,5 +1,0 @@
-resources:
-  - shared
-  - sync
-  - api
-  - web
