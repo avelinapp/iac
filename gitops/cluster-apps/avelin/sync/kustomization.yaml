@@ -3,4 +3,3 @@ namespace: avelin
 resources:
   - sync-svc.yaml
   - sync-deploy.yaml
-  - sync-tunnelbinding.yaml
