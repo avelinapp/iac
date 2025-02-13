@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: avelin-sync-ingress
+  labels:
+    app: avelin-sync
+spec:
+  rules:
+    - host: sync.avelin.app
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: avelin-sync-svc
+                port:
+                  name: http

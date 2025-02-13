@@ -1,5 +1,6 @@
 namespace: avelin
 
 resources:
-  - sync-svc.yaml
   - sync-deploy.yaml
+  - sync-svc.yaml
+  - sync-ingress.yaml
