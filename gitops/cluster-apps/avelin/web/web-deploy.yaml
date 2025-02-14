@@ -6,7 +6,7 @@ metadata:
   labels:
     app: avelin-web
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: avelin-web
@@ -27,7 +27,5 @@ spec:
           envFrom:
             - configMapRef:
                 name: avelin-config
-            - secretRef:
-                name: oauth-secret
             - secretRef:
                 name: db-secret

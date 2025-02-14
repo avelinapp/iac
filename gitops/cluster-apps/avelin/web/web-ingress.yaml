@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: avelin-web-ingress
+  labels:
+    app: avelin-web
+spec:
+  rules:
+    - host: avelin.app
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: avelin-web-svc
+                port:
+                  name: http

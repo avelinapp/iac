@@ -1,5 +1,6 @@
 namespace: avelin
 
 resources:
-  - web-svc.yaml
   - web-deploy.yaml
+  - web-svc.yaml
+  - web-ingress.yaml
