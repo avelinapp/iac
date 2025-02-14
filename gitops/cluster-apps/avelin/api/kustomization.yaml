@@ -1,5 +1,6 @@
 namespace: avelin
 
 resources:
-  - api-svc.yaml
   - api-deploy.yaml
+  - api-svc.yaml
+  - api-ingress.yaml
