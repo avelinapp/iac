@@ -3,3 +3,4 @@ resources:
   - avelin-sync-application.yaml
   - avelin-api-application.yaml
   - avelin-web-application.yaml
+  # - avelin-zero-application.yaml
