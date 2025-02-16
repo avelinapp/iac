@@ -1,6 +1,7 @@
 namespace: avelin
 
 resources:
+  - zero-pvc.yaml
   - zero-deploy.yaml
   - zero-svc.yaml
   - zero-ingress.yaml
