@@ -35,3 +35,5 @@ spec:
                 name: sync-secret
             - secretRef:
                 name: db-secret
+            - secretRef:
+                name: api-secret
