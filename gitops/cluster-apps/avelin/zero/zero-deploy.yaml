@@ -33,8 +33,6 @@ spec:
               value: debug
           envFrom:
             - secretRef:
-                name: db-secret
-            - secretRef:
                 name: zero-secret
           volumeMounts:
             - name: zero-replica
