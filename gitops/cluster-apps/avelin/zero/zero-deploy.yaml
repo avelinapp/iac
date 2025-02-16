@@ -15,6 +15,10 @@ spec:
       labels:
         app: avelin-zero
     spec:
+      volumes:
+        - name: zero-replica
+          persistentVolumeClaim:
+            claimName: zero-pvc
       containers:
         - name: avelin-zero
           image: rocicorp/zero:0.15.2025021402
@@ -32,3 +36,6 @@ spec:
                 name: db-secret
             - secretRef:
                 name: zero-secret
+          volumeMounts:
+            - name: zero-replica
+              mountPath: /data
