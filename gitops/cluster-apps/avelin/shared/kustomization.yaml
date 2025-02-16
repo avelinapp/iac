@@ -7,5 +7,6 @@ resources:
   - ghcr-externalsecret.yaml
   - oauth-externalsecret.yaml
   - sync-externalsecret.yaml
+  - zero-externalsecret.yaml
   - avelin-config.yaml
   - db-migration-job.yaml
