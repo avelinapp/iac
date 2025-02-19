@@ -2,5 +2,6 @@ namespace: avelin
 
 resources:
   - web-deploy.yaml
+  - web-bun-deploy.yaml
   - web-svc.yaml
   - web-ingress.yaml
