@@ -5,6 +5,12 @@ metadata:
   namespace: avelin
   labels:
     app: avelin-web
+  annotations:
+    traefik.ingress.kubernetes.io/service.sticky.cookie: true
+    traefik.ingress.kubernetes.io/service.sticky.cookie.name: traefik_sticky_session
+    traefik.ingress.kubernetes.io/service.sticky.cookie.secure: true
+    traefik.ingress.kubernetes.io/service.sticky.cookie.samesite: none
+    traefik.ingress.kubernetes.io/service.sticky.cookie.httponly: true
 spec:
   selector:
     app: avelin-web
