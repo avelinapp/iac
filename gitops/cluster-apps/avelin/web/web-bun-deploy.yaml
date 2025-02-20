@@ -6,7 +6,7 @@ metadata:
   labels:
     app: avelin-web-bun
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: avelin-web
@@ -20,7 +20,7 @@ spec:
       imagePullSecrets:
         - name: ghcr-secret
       containers:
-        - name: avelin-web
+        - name: avelin-web-bun
           image: ghcr.io/avelinapp/web:v0.34.6-bun
           imagePullPolicy: Always
           ports:
