@@ -5,3 +5,5 @@ resources:
   - web-bun-deploy.yaml
   - web-svc.yaml
   - web-ingress.yaml
+  - web-bun-svc.yaml
+  - web-bun-ingressroute.yaml
