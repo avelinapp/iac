@@ -11,5 +11,4 @@ spec:
       kind: Rule
       services:
         - name: avelin-web-bun-svc
-          port:
-            name: http
+          port: http
