@@ -1,0 +1,15 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: avelin-web-bun-ingressroute
+spec:
+  entryPoints:
+    - web
+    - websecure
+  routes:
+    - match: Host(`avelin.app`) && HeadersRegexp(`Cookie`, `.*runtime=bun.*`)
+      kind: Rule
+      services:
+        - name: avelin-web-bun-svc
+          port:
+            name: http
