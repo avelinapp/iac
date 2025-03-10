@@ -9,4 +9,3 @@ resources:
   - sync-externalsecret.yaml
   - zero-externalsecret.yaml
   - avelin-config.yaml
-  # - db-migration-job.yaml
