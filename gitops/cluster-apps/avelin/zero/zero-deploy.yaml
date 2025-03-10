@@ -21,7 +21,7 @@ spec:
             claimName: zero-pvc
       containers:
         - name: avelin-zero
-          image: rocicorp/zero:0.15.2025021402
+          image: rocicorp/zero:0.16.2025022800
           imagePullPolicy: Always
           ports:
             - containerPort: 4848
