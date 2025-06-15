@@ -6,7 +6,7 @@ metadata:
   labels:
     app: avelin-sync
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: avelin-sync
